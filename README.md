@@ -1,4 +1,9 @@
 # GoAutoGPT
+
+[English Version README](./README_EN.md)
+
+[中文版 README](./README.md)
+
 ## 使用方法
 
 采用ChatGPT实现人工智能编程，输入一个名字，自动完成架构设计、功能分解、代码编程
@@ -25,11 +30,13 @@
 
 `./GoCodeGPT generate -p '你所要生成的projectId'`
 
+![Image description](https://github.com/NiuStar/GoAutoGPT/raw/main/example/generate.png)
+
 projectId查看方式为：
 
 `./GoCodeGPT list`
 
-
+![Image description](https://github.com/NiuStar/GoAutoGPT/raw/main/example/list.jpg)
 
 找到你要生成的project的uuid
 
