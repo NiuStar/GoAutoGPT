@@ -34,7 +34,7 @@ The `projectId` can be found by running:
 
 Find the UUID of the project you want to generate, and the `nameEn` is the code directory name in `$src`.
 
-Sorry for the slow network speed of Tencent Cloud's low-cost host.
+We have switched to the cloudcone server. If you cannot ping 198.211.18.242, please use 🛫.
 
 ## Future Plans:
 
