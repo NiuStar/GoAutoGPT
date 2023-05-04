@@ -33,6 +33,7 @@ func (config2 *Config) loadConfig() error {
 	if src := os.Getenv("src"); len(src) > 0 {
 		config2.Src = src
 	}
-	config2.Uri = "http://43.143.82.246:18080/"
+	//config2.Uri = "http://192.168.39.68:18080/"
+	config2.Uri = "http://198.211.18.242:18080/"
 	return nil
 }
