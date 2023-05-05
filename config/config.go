@@ -34,6 +34,6 @@ func (config2 *Config) loadConfig() error {
 		config2.Src = src
 	}
 	//config2.Uri = "http://192.168.39.68:18080/"
-	config2.Uri = "http://198.211.18.242:18080/"
+	config2.Uri = "http://198.74.107.4:18080/"
 	return nil
 }
