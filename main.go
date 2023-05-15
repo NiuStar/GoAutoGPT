@@ -42,8 +42,7 @@ func GenerateCommand() *cli.Command {
 		},
 	}
 	cmd.Action = func(c *cli.Context) error {
-		app.Genarate(projectId)
-		return nil
+		return app.Genarate(projectId)
 	}
 	return cmd
 }
